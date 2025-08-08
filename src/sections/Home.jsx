@@ -21,7 +21,7 @@ const socialLinks = [
   },
   {
     icon: Mail,
-    url: "mailto:ishuchoudhary.dev@gmail.com", // use direct mailto instead of Gmail compose
+    url: "mailto:ishusirohi8476@gmail.com", 
   },
 ];
 
