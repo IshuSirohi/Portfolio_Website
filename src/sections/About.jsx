@@ -16,13 +16,16 @@ const fadeUp = {
 
 const About = () => {
   return (
-    <section id="about" className="min-h-screen flex flex-col justify-center items-center px-6 md:px-12 py-10 bg-neutral-800 text-white">
+    <section
+      id="about"
+      className="min-h-screen flex flex-col justify-center items-center px-6 md:px-12 py-20 bg-neutral-900 text-white relative"
+    >
       <motion.h2
         custom={1}
         variants={fadeUp}
         initial="hidden"
         animate="visible"
-        className="text-4xl font-bold mb-4 text-center"
+        className="text-4xl md:text-5xl font-bold mb-6 text-center bg-gradient-to-r from-purple-400 via-pink-500 to-red-400 text-transparent bg-clip-text drop-shadow-lg"
       >
         👋 About Me
       </motion.h2>
@@ -32,7 +35,7 @@ const About = () => {
         variants={fadeUp}
         initial="hidden"
         animate="visible"
-        className="text-lg text-gray-300 max-w-3xl text-center mb-8"
+        className="text-lg md:text-xl text-gray-300 max-w-3xl text-center mb-12 leading-relaxed"
       >
         I'm a passionate Full-Stack Developer specializing in the MERN stack with an eye for sleek UI and emerging tech like voice interfaces. Currently building AI-enhanced web experiences that feel interactive and intuitive.
       </motion.p>
@@ -42,18 +45,20 @@ const About = () => {
         variants={fadeUp}
         initial="hidden"
         animate="visible"
-        className="bg-[#1a1a1a] p-6 md:p-10 rounded-2xl shadow-lg max-w-3xl w-full"
+        className="w-full max-w-3xl bg-neutral-800/70 backdrop-blur-md border border-neutral-700 rounded-2xl p-8 md:p-12 shadow-lg transition-all duration-300 hover:shadow-purple-600/30"
       >
-        <h3 className="text-2xl font-semibold mb-6 border-b border-gray-700 pb-2 text-center">⚙️ Skills</h3>
+        <h3 className="text-2xl md:text-3xl font-semibold mb-6 text-center text-purple-400 tracking-wide">
+          ⚙️ Skills
+        </h3>
 
-        <div className="space-y-4 text-base leading-relaxed">
+        <div className="space-y-6 text-base md:text-lg leading-relaxed text-gray-200">
           <div>
             <span className="font-semibold text-purple-400">Language:</span>{" "}
             Java, JavaScript, HTML, CSS
           </div>
           <div>
             <span className="font-semibold text-green-400">Technology:</span>{" "}
-             Web Speech API
+            Web Speech API
           </div>
           <div>
             <span className="font-semibold text-blue-400">Framework:</span>{" "}
@@ -70,3 +75,4 @@ const About = () => {
 };
 
 export default About;
+
