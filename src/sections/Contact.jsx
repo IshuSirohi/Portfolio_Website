@@ -43,7 +43,7 @@ const Contact = () => {
     {
       icon: <Mail size={20} />,
       title: 'Email',
-      value: 'ishuchoudhary8476@gmail.com',
+      value: 'ishusirohi8476@gmail.com',
       link: '#',
     },
     // {
