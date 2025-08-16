@@ -4,7 +4,7 @@ import { ExternalLink, Github, Globe } from 'lucide-react';
 const Projects = () => {
   const projects = [
         {
-      title: 'Job Tracker Apllication',
+      title: 'Job Tracker Application',
       description: 'A application for keeping track of jobs using React and Tailwind.',
       image: '/jobtracker.png',
       technologies: ['React, Tailwind CSS'],
