@@ -3,11 +3,21 @@ import { ExternalLink, Github, Globe } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
+        {
+      title: 'Job Tracker Apllication',
+      description: 'A application for keeping track of jobs using React and Tailwind.',
+      image: '/unnamed.png',
+      technologies: ['React, Tailwind CSS'],
+      demoLink: 'https://job-tracker-pi-one.vercel.app/#/dashboard',
+      githubLink: 'https://github.com/IshuSirohi/Job_Tracker',
+      category: 'Web App',
+      icon: <Globe size={18} />,
+    },
     {
       title: 'Forge-play site',
       description: 'A responsive anime-like website with a sleek design, featuring a dynamic hero section, interactive navigation, and a modern layout.',
       image: '/forgeplay.png',
-      technologies: ['React', 'TailwindCss'],
+      technologies: ['React', 'Tailwind CSS'],
       demoLink: 'https://forge-play-site.vercel.app/',
       githubLink: 'https://github.com/IshuSirohi/ForgePlay_Site',
       category: 'Web App',
@@ -23,16 +33,7 @@ const Projects = () => {
       category: 'Web App',
       icon: <Globe size={18} />,
     },
-    {
-      title: 'Weather App',
-      description: 'A weather application that provides real-time weather updates and forecasts.',
-      image: '/unnamed.png',
-      technologies: ['HTML', 'CSS', 'JavaScript'],
-      demoLink: '#',
-      githubLink: 'https://github.com/IshuSirohi/WeatherApp',
-      category: 'Web App',
-      icon: <Globe size={18} />,
-    },
+
   ];
 
   return (
