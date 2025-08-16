@@ -6,7 +6,7 @@ const Projects = () => {
         {
       title: 'Job Tracker Apllication',
       description: 'A application for keeping track of jobs using React and Tailwind.',
-      image: '/unnamed.png',
+      image: '/jobtracker.png',
       technologies: ['React, Tailwind CSS'],
       demoLink: 'https://job-tracker-pi-one.vercel.app/#/dashboard',
       githubLink: 'https://github.com/IshuSirohi/Job_Tracker',
